@@ -1,3 +1,8 @@
+# Run Addon Locally
+1. Clone the repo
+2. Open Firefox
+3. Addons -> Debug Addons -> Load Temporary Addon -> Select manifest.json
+
 # Medium Free with Google Cache
 
 Medium is a good place to keep up to date if you work on the web, although the articles tend to have click bait titles and focus on current trends (e.g. Chatgpt and AI tools at the moment).

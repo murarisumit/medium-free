@@ -1,16 +1,17 @@
 {
 	"manifest_version": 2,
 	"name": "Medium Free with Google Cache",
-	"version": "1.1",
-	"homepage_url": "https://github.com/invernomuto-git/medium-free",
-	"description": "Medium articles fully readable using Google Cache",
+	"version": "1.2",
+	"homepage_url": "https://github.com/murarisumit/medium-free",
+	"description": "Medium articles fully readable using Google Cache. OG extension  https://github.com/invernomuto-git/medium-free",
 
 	"icons": {
 		"48": "icons/medium-48.png"
 	},
 
 	"permissions": [
-		"<all_urls>"
+		"https://*.medium.com/*",
+		"https://*.googleusercontent.com/*"
 	],
 	
 	"background": {
@@ -18,6 +19,12 @@
 	},
 
 	"browser_action": {
-		"default_title": "Open Medium article Google Cache in a new tab"
-	}
+		"default_title": "Open Medium article Google Cache in a new tab. "
+	},
+
+	"browser_specific_settings": {
+		"gecko": {
+		  "id": "medium-free@murarisumit.github.com"
+		}
+	  }
 }
